@@ -79,6 +79,7 @@ var config_data = `
     },
     { "name": "Notes picked up",
       "code": "npu"
+      "type": "text"
       "size": 15,
       "maxSIze": 30
     }
