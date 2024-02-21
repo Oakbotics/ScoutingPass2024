@@ -78,8 +78,8 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Notes picked up",
-      "code": "npu"
-      "type": "text"
+      "code": "npu",
+      "type": "text",
       "size": 15,
       "maxSIze": 30
     }
