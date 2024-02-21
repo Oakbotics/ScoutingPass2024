@@ -2,14 +2,14 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2024",
-  "page_title": "Crescendo",
+  "page_title": "3739 Oakbotics Scouting",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials",
+    { "name": "Scouter Name",
       "code": "s",
       "type": "scouter",
-      "size": 5,
-      "maxSize": 5,
+      "size": 10,
+      "maxSize": 15,
       "required": "true"
     },
     { "name": "Event",
@@ -22,9 +22,9 @@ var config_data = `
       "code": "l",
       "type": "level",
       "choices": {
-        "qm": "Quals<br>",
-        "sf": "Semifinals<br>",
-        "f": "Finals"
+        "Quals": "Quals<br>",
+        "SemiFinals": "Semifinals<br>",
+        "Finals": "Finals"
       },
       "defaultValue": "qm",
       "required": "true"
@@ -49,11 +49,11 @@ var config_data = `
       },
       "required":"true"
     },
-    { "name": "Team #",
+    { "name": "Team Name",
       "code": "t",
-      "type": "team",
-      "min": 1,
-      "max": 99999
+      "type": "text",
+      "size": 15,
+      "maxSize": 99999
     },
     { "name": "Auto Start Position",
       "code": "as",
