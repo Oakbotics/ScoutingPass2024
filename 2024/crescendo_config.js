@@ -76,6 +76,11 @@ var config_data = `
     { "name": "Speaker Scores",
       "code": "ass",
       "type": "counter"
+    },
+    { "name": "Notes picked up",
+      "code": "npu"
+      "size": 15,
+      "maxSIze": 30
     }
   ],
   "teleop": [
