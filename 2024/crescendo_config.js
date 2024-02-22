@@ -96,8 +96,8 @@ var config_data = `
     { "name": "Notes went to but missed",
       "code": "nwm",
       "type": "text",
-      "size: 15,
-      "maxSize: 30
+      "size": 15,
+      "maxSize": 30
     },
     { "name": "Note Locations",
       "code": "nl",
