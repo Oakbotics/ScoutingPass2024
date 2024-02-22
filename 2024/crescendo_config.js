@@ -219,7 +219,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "# spotlit",
-      "code": "s",
+      "code": "ns",
       "type": "counter",
       "min": 0,
       "max": 3
