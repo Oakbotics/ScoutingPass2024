@@ -90,7 +90,7 @@ var config_data = `
       "dimensions": "0 0",
       "clickRestriction": "onePerBox",
       "showFlip": "false",
-      "showUndo: "false"
+      "showUndo": "false"
     }
   ],
   "teleop": [
