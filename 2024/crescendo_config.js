@@ -86,7 +86,7 @@ var config_data = `
     { "name": "Note Location",
       "code": "nl",
       "type": "clickable_image",
-      "filename": "Autonomous-Note-Placement.png",
+      "filename": "Autonomous_Note_Placement.png",
       "dimensions": "0 0",
       "clickRestriction": "onePerBox",
       "showFlip": "false",
