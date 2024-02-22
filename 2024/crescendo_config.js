@@ -77,11 +77,20 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     },
-    { "name": "Notes picked up",
+    { "name": "Order of Notes picked up",
       "code": "npu",
       "type": "text",
       "size": 15,
-      "maxSIze": 30
+      "maxSize": 30
+    },
+    { "name": "Note Location",
+      "code": "nl",
+      "type": "clickable_image",
+      "filename": "Autonomous-Note-Placement.png",
+      "dimensions": "0 0",
+      "clickRestriction": "onePerBox",
+      "showFlip": "false",
+      "showUndo: "false"
     }
   ],
   "teleop": [
