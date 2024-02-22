@@ -83,10 +83,10 @@ var config_data = `
       "size": 15,
       "maxSize": 30
     },
-    { "name": "Note Location",
+    { "name": "Note Locations",
       "code": "nl",
       "type": "clickable_image",
-      "filename": "Autonomous_Note_Placement.png",
+      "filename": "2024/Autonomous_Note_Placement.png",
       "dimensions": "0 0",
       "clickRestriction": "onePerBox",
       "showFlip": "false",
