@@ -102,10 +102,18 @@ var config_data = `
       "code": "tss",
       "type": "counter"
     },
-    { "name": "Times Amplified",
+    { "name": "Speaker Scores AMPED",
       "code": "tta",
       "type": "counter"
     },
+    { "name": "Notes Dropped",
+      "code": "nd",
+      ""type": "counter"
+    },
+    { "name": "Successful Intakes",
+    "code": "si",
+    "type": "counter"
+    } 
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
@@ -116,7 +124,7 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
-    }
+    }, 
   ],
   "endgame": [
     { "name": "Stage Timer",
