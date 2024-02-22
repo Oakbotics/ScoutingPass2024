@@ -108,12 +108,12 @@ var config_data = `
     },
     { "name": "Notes Dropped",
       "code": "nd",
-      ""type": "counter"
+      "type": "counter"
     },
     { "name": "Successful Intakes",
     "code": "si",
     "type": "counter"
-    } 
+    }, 
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
@@ -124,7 +124,7 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
-    }, 
+    }
   ],
   "endgame": [
     { "name": "Stage Timer",
