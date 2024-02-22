@@ -103,8 +103,8 @@ var config_data = `
       "code": "nl",
       "type": "clickable_image",
       "filename": "2024/Autonomous_Note_Placement.png",
-      "dimensions": "6 12",
-      "clickRestriction": "onePerBox",
+      "dimensions": "24 12",
+      "clickRestriction": "one",
       "showFlip": "false",
       "showUndo": "false"
     }
