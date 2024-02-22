@@ -55,6 +55,16 @@ var config_data = `
       "size": 15,
       "maxSize": 99999
     },
+    { "name": "Human Player Location",
+      "code": "hpl",
+      "type": "radio",
+      "choices": {
+       "1": "Amp",
+       "2": "Source",
+       "3": "N/A"
+       },
+       "defaultValue": "3"
+    },
     { "name": "Auto Start Position",
       "code": "as",
       "type": "clickable_image",
