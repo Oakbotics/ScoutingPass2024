@@ -199,11 +199,11 @@ var config_data = `
       },
       "defaultValue":"3"
     },
-    { "name": "Died/Immobilized",
+    { "name": "Immobilized?",
       "code": "die",
       "type": "bool"
     },
-    { "name": "Tippy<br>(almost tipped over)",
+    { "name": "Tippy?<br>(almost tipped over)",
       "code": "tip",
       "type": "bool"
     },
