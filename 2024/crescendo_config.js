@@ -147,7 +147,7 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Time to climb"
+    { "name": "Time to climb",
       "code": "dt",
       "type": "timer"
     },
