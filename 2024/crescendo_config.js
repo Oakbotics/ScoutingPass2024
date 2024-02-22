@@ -107,10 +107,6 @@ var config_data = `
       "clickRestriction": "onePerBox",
       "showFlip": "false",
       "showUndo": "false"
-    },
-    { "name": "Coopertition?",
-      "code": "c",
-      "type": "checkbox"
     }
   ],
   "teleop": [
@@ -144,10 +140,14 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
+    },
+    { "name": "Coopertition?",
+      "code": "c",
+      "type": "checkbox"
     }
   ],
   "endgame": [
-    { "name": "Time to climb/park",
+    { "name": "Time to climb"
       "code": "dt",
       "type": "timer"
     },
@@ -157,7 +157,7 @@ var config_data = `
       "choices": {
         "p": "Parked<br>",
         "o": "Onstage<br>",
-        "x": "Not attempted"
+        "x": "On field"
       },
       "defaultValue": "x"
     },
