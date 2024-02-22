@@ -87,11 +87,17 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     },
-    { "name": "Order of Notes picked up",
-      "code": "npu",
+    { "name": "Order of Notes went to",
+      "code": "onw",
       "type": "text",
       "size": 15,
       "maxSize": 30
+    },
+    { "name": "Notes went to but missed",
+      "code": "nwm",
+      "type": "text",
+      "size: 15,
+      "maxSize: 30
     },
     { "name": "Note Locations",
       "code": "nl",
@@ -124,7 +130,7 @@ var config_data = `
       "code": "nd",
       "type": "counter"
     },
-    { "name": "Successful Intakes",
+    { "name": "Missed Shots",
     "code": "si",
     "type": "counter"
     }, 
@@ -141,24 +147,25 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Stage Timer",
+    { "name": "Time to climb/park",
       "code": "dt",
       "type": "timer"
     },
-    { "name": "Final Status",
+    { "name": "Final Bot location",
       "code": "fs",
       "type":"radio",
       "choices": {
         "p": "Parked<br>",
         "o": "Onstage<br>",
-        "s": "Onstage (Spotlit)<br>",
-        "h": "Harmony<br>",
-        "a": "Attempted but failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
     },
-    { "name": "Note in Trap",
+    { "name": "Harmony?",
+      "code": "H",
+      "type": "bool"
+    },
+    { "name": "Note in Trap?",
       "code": "nit",
       "type": "bool"
     }
@@ -206,6 +213,16 @@ var config_data = `
     { "name": "Tippy?<br>(almost tipped over)",
       "code": "tip",
       "type": "bool"
+    },
+    { "name": "Fouls Given",
+      "code": "fg",
+      "type": "counter"
+    },
+    { "name": "# spotlit",
+      "code": "s",
+      "type": "counter",
+      "min": 0,
+      "max": 3
     },
     { "name": "Comments",
       "code": "co",
