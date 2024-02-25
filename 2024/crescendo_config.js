@@ -95,6 +95,7 @@ var config_data = `
       "clickRestriction": "onePerBox",
       "showFlip": "false",
       "showUndo": "true",
+      "allowableResponses": "1 2 3 4 5 6 7 8 9 11 14",
       "shape": "circle 5 black red true"
     },
     { "name": "Missed Pickups",
@@ -105,6 +106,7 @@ var config_data = `
       "clickRestriction": "onePerBox",
       "showFlip": "false",
       "showUndo": "true",
+      "allowableResponses": "1 2 3 4 5 6 7 8 9 11 14",
       "shape": "circle 5 black red true"
     }
   ],
