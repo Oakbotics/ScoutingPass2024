@@ -5,6 +5,12 @@ var config_data = `
   "page_title": "3739 Oakbotics Scouting",
   "checkboxAs": "10",
   "prematch": [
+      { "name": "Team Name",
+      "code": "t",
+      "type": "text",
+      "size": 15,
+      "maxSize": 99999
+    },
     { "name": "Scouter Name",
       "code": "s",
       "type": "scouter",
@@ -18,7 +24,7 @@ var config_data = `
       "defaultValue": "2023tnkn",
       "required": "true"
     },
-    { "name": "Match Level",
+    { "name": "Match Type",
       "code": "l",
       "type": "level",
       "choices": {
@@ -48,12 +54,6 @@ var config_data = `
         "b3": "Blue-3"
       },
       "required":"true"
-    },
-    { "name": "Team Name",
-      "code": "t",
-      "type": "text",
-      "size": 15,
-      "maxSize": 99999
     },
     { "name": "Human Player Location",
       "code": "hpl",
