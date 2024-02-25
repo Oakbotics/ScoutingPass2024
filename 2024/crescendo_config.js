@@ -75,7 +75,7 @@ var config_data = `
     }
   ],
   "auton": [
-    { "name": "Leave Starting Zone",
+    { "name": "Left Starting Zone",
       "code": "al",
       "type": "bool"
     },
@@ -98,7 +98,7 @@ var config_data = `
       "allowableResponses": "1 2 3 4 5 6 7 8 9 11 14",
       "shape": "circle 5 black red true"
     },
-    { "name": "Missed Pickups",
+    { "name": "Attempted pickup but Missed",
       "code": "mp",
       "type": "clickable_image",
       "filename": "2024/field_image.png",
