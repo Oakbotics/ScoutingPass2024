@@ -59,9 +59,9 @@ var config_data = `
       "code": "hpl",
       "type": "radio",
       "choices": {
-       "1": "Amp",
-       "2": "Source",
-       "3": "N/A"
+       "Amp": "Amp",
+       "Source": "Source",
+       "N/A": "N/A"
        },
        "defaultValue": "3"
     },
