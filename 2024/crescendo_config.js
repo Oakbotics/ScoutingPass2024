@@ -87,27 +87,33 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     },
-    { "name": "Order of Notes went to",
-      "code": "onw",
-      "type": "text",
-      "size": 15,
-      "maxSize": 30
-    },
     { "name": "Notes went to but missed",
       "code": "nwm",
       "type": "text",
       "size": 15,
       "maxSize": 30
     },
-    { "name": "Note Locations",
-      "code": "nl",
+    { "name": "Order Of Notes Went to",
+      "code": "onw",
       "type": "clickable_image",
-      "filename": "2024/Autonomous_Note_Placement.png",
-      "dimensions": "0 0",
-      "clickRestriction": "one",
+      "filename": "2024/field_image.png",
+      "dimensions": "3 5",
+      "clickRestriction": "oneperbox",
       "showFlip": "false",
-      "showUndo": "false"
+      "showUndo": "true"
+      "shape": "circle 5 black red true"
     }
+    { "name": "Missed Pickups",
+      "code": "mp",
+      "type": "clickable_image",
+      "filename": "2024/field_image.png",
+      "dimensions": "3 5",
+      "clickRestriction": "oneperbox",
+      "showFlip": "false",
+      "showUndo": "true"
+      "shape": "circle 5 black red true"
+    }
+
   ],
   "teleop": [
     { "name": "Amp Scores",
