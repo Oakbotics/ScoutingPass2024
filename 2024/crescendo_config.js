@@ -92,7 +92,7 @@ var config_data = `
       "type": "clickable_image",
       "filename": "2024/field_image.png",
       "dimensions": "3 5",
-      "clickRestriction": "oneperbox",
+      "clickRestriction": "onePerBox",
       "showFlip": "false",
       "showUndo": "true",
       "shape": "circle 5 black red true"
@@ -102,7 +102,7 @@ var config_data = `
       "type": "clickable_image",
       "filename": "2024/field_image.png",
       "dimensions": "3 5",
-      "clickRestriction": "oneperbox",
+      "clickRestriction": "onePerBox",
       "showFlip": "false",
       "showUndo": "true",
       "shape": "circle 5 black red true"
