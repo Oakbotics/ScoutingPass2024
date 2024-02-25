@@ -144,7 +144,7 @@ var config_data = `
     { "name": "Location Shot From",
       "code": "lsf",
       "type": "clickable_image",
-      "filename: "2024/field_image.png",
+      "filename": "2024/field_image.png",
       "dimensions": "24 12",
       "clickRestrictions": "onePerBox",
       "showFlip": "false",
