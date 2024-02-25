@@ -66,7 +66,7 @@ var config_data = `
        "defaultValue": "3"
     },
     { "name": "Starting Position",
-      "code": "sp",
+      "code": "as",
       "type": "clickable_image",
       "filename": "2024/field_image.png",
       "clickRestriction": "one",
