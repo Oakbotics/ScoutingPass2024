@@ -135,10 +135,10 @@ var config_data = `
       "code": "tpu",
       "type": "radio",
       "choices": {
-        "s": "Source<br>",
-        "f": "Floor<br>",
-        "b": "Both<br>",
-        "x": "Not Attempted"
+        "Source": "Source<br>",
+        "Floor": "Floor<br>",
+        "Both": "Both<br>",
+        "N/A": "Not Attempted"
       },
       "defaultValue": "x"
     },
@@ -166,11 +166,11 @@ var config_data = `
       "code": "fs",
       "type":"radio",
       "choices": {
-        "p": "Parked<br>",
-        "o": "Onstage<br>",
-        "x": "On field"
+        "Parked": "Parked<br>",
+        "Onstage": "Onstage<br>",
+        "On Field": "On field"
       },
-      "defaultValue": "x"
+      "defaultValue": "On Field"
     },
     { "name": "Harmony?",
       "code": "H",
