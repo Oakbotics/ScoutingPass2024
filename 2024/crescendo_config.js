@@ -141,6 +141,16 @@ var config_data = `
       },
       "defaultValue": "x"
     },
+    { "name": "Location Shot From",
+      "code": "lsf",
+      "type": "clickable_image",
+      "filename: "2024/field_image.png",
+      "dimensions": "24 12",
+      "clickRestrictions": "onePerBox",
+      "showFlip": "false",
+      "showUndo": "true",
+      "shape": "circle 5 black red true"
+    },
     { "name": "Coopertition?",
       "code": "c",
       "type": "checkbox"
