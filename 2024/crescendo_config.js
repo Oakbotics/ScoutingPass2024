@@ -87,12 +87,6 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     },
-    { "name": "Notes went to but missed",
-      "code": "nwm",
-      "type": "text",
-      "size": 15,
-      "maxSize": 30
-    },
     { "name": "Order Of Notes Went to",
       "code": "onw",
       "type": "clickable_image",
@@ -100,9 +94,9 @@ var config_data = `
       "dimensions": "3 5",
       "clickRestriction": "oneperbox",
       "showFlip": "false",
-      "showUndo": "true"
+      "showUndo": "true",
       "shape": "circle 5 black red true"
-    }
+    },
     { "name": "Missed Pickups",
       "code": "mp",
       "type": "clickable_image",
@@ -110,10 +104,9 @@ var config_data = `
       "dimensions": "3 5",
       "clickRestriction": "oneperbox",
       "showFlip": "false",
-      "showUndo": "true"
+      "showUndo": "true",
       "shape": "circle 5 black red true"
     }
-
   ],
   "teleop": [
     { "name": "Amp Scores",
