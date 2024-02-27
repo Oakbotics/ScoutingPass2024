@@ -147,7 +147,7 @@ var config_data = `
       "type": "clickable_image",
       "filename": "2024/field_image.png",
       "dimensions": "12 6",
-      "clickRestrictions": "onePerBox",
+      "clickRestrictions": "none",
       "showFlip": "false",
       "showUndo": "true",
       "shape": "circle 5 black red true"
