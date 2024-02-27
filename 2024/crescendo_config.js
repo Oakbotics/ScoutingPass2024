@@ -146,7 +146,7 @@ var config_data = `
       "code": "lsf",
       "type": "clickable_image",
       "filename": "2024/field_image.png",
-      "dimensions": "24 12",
+      "dimensions": "12 6",
       "clickRestrictions": "onePerBox",
       "showFlip": "false",
       "showUndo": "true",
