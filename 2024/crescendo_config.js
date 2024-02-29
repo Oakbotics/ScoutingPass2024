@@ -24,6 +24,17 @@ var config_data = `
       "defaultValue": "2023tnkn",
       "required": "true"
     },
+    { "name": "Match Type",
+     "code": "l",
+     "type": "level",
+     "choices": {
+        "Quals": "Quals<br>",
+        "SemiFinals": "Semifinals<br>",
+        "Finals": "Finals"
+     },
+      "defaultValue": "Quals",
+      "required": "true"
+    },
     { "name": "Match #",
       "code": "m",
       "type": "match",
