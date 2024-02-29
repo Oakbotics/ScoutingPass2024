@@ -10,7 +10,7 @@ var config_data = `
       "type": "team",
       "min": 1,
       "max": 99999,
-      "required: "true"
+      "required": "true"
     },
     { "name": "Scouter Name",
       "code": "s",
