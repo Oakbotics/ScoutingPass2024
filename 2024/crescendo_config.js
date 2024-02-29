@@ -6,8 +6,8 @@ var config_data = `
   "checkboxAs": "10",
   "prematch": [
       { "name": "Team Number",
-      "code": "team",
-      "type": "number",
+      "code": "tn",
+      "type": "team",
       "min": 1,
       "max": 99999
     },
