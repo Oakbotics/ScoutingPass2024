@@ -7,9 +7,9 @@ var config_data = `
   "prematch": [
     { "name": "Team #",
       "code": "t",
-      "type": "team",
-      "min": 1,
-      "max": 99999
+      "type": "text",
+      "size": 15,
+      "maxSize": 99999
     },
     { "name": "Scouter Name",
       "code": "s",
