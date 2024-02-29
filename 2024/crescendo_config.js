@@ -7,9 +7,9 @@ var config_data = `
   "prematch": [
       { "name": "Team Name",
       "code": "t",
-      "type": "text",
-      "size": 15,
-      "maxSize": 99999
+      "type": "number",
+      "min": 1,
+      "max": 99999
     },
     { "name": "Scouter Name",
       "code": "s",
@@ -22,17 +22,6 @@ var config_data = `
       "code": "e",
       "type": "event",
       "defaultValue": "2023tnkn",
-      "required": "true"
-    },
-    { "name": "Match Type",
-      "code": "l",
-      "type": "level",
-      "choices": {
-        "Quals": "Quals<br>",
-        "SemiFinals": "Semifinals<br>",
-        "Finals": "Finals"
-      },
-      "defaultValue": "qm",
       "required": "true"
     },
     { "name": "Match #",
@@ -97,17 +86,6 @@ var config_data = `
       "showUndo": "true",
       "allowableResponses": "1 2 3 4 5 6 7 8 9 11 14",
       "shape": "circle 5 black red true"
-    },
-    { "name": "Attempted pickup but Missed",
-      "code": "mp",
-      "type": "clickable_image",
-      "filename": "2024/field_image.png",
-      "dimensions": "3 5",
-      "clickRestriction": "onePerBox",
-      "showFlip": "false",
-      "showUndo": "true",
-      "allowableResponses": "1 2 3 4 5 6 7 8 9 11 14",
-      "shape": "circle 5 black red true"
     }
   ],
   "teleop": [
@@ -123,12 +101,12 @@ var config_data = `
       "code": "tta",
       "type": "counter"
     },
-    { "name": "Notes Dropped",
-      "code": "nd",
+    { "name": "Missed Shots",
+      "code": "si",
       "type": "counter"
     },
-    { "name": "Missed Shots",
-    "code": "si",
+    { "name": "Notes Dropped",
+    "code": "nd",
     "type": "counter"
     }, 
     { "name": "Pickup From",
@@ -167,10 +145,20 @@ var config_data = `
       "type":"radio",
       "choices": {
         "Parked": "Parked<br>",
-        "Onstage": "Onstage<br>",
-        "On Field": "On field"
+        "Climbed": "Onstage<br>",
+        "N/A": "On field"
       },
       "defaultValue": "On Field"
+    },
+    { "name": "Climb Position",
+      "code": "cp",
+      "type": "radio",
+      "choices": {
+       "Side": "Side",
+       "Center": "Center",
+       "N/A": "N/A"
+       },
+       "defaultValue": "N/A"
     },
     { "name": "Harmony?",
       "code": "H",
