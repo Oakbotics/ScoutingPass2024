@@ -5,8 +5,8 @@ var config_data = `
   "page_title": "3739 Oakbotics Scouting",
   "checkboxAs": "10",
   "prematch": [
-      { "name": "Team Number",
-      "code": "tn",
+    { "name": "Team #",
+      "code": "t",
       "type": "team",
       "min": 1,
       "max": 99999
