@@ -7,7 +7,7 @@ var config_data = `
   "prematch": [
     { "name": "Team #",
       "code": "t",
-      "type": "counter",
+      "type": "number",
       "min": 0,
       "max": 99999
     },
