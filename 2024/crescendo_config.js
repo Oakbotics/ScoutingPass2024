@@ -6,6 +6,12 @@ var config_data = `
   "checkboxAs": "10",
   "prematch": [
 
+    { "name": "Team #",
+      "code": "t",
+      "type": "team",
+      "min": 0,
+      "max": 99999
+    }, 
     { "name": "Scouter Name",
       "code": "s",
       "type": "scouter",
@@ -59,12 +65,6 @@ var config_data = `
        "N/A": "N/A"
        },
        "defaultValue": "3"
-    },
-   { "name": "Team #",
-      "code": "t",
-      "type": "team",
-      "min": 0,
-      "max": 99999
     },
     { "name": "Starting Position",
       "code": "as",
