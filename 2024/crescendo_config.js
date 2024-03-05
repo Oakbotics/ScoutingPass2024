@@ -23,11 +23,11 @@ var config_data = `
      "code": "l",
      "type": "level",
      "choices": {
-        "Quals": "Quals<br>",
-        "SemiFinals": "Semifinals<br>",
-        "Finals": "Finals"
+        "qm": "Quals<br>",
+        "sf": "Semifinals<br>",
+        "f": "Finals"
      },
-      "defaultValue": "Quals",
+      "defaultValue": "qm",
       "required": "true"
     },
     { "name": "Match #",
