@@ -94,7 +94,7 @@ var config_data = `
       "filename": "2024/field_image.png",
       "dimensions": "3 5",
       "clickRestriction": "onePerBox",
-      "showFlip": "false",
+      "showFlip": "true",
       "showUndo": "true",
       "allowableResponses": "1 2 3 4 5 6 7 8 9 11 14",
       "shape": "circle 5 black red true"
@@ -138,13 +138,13 @@ var config_data = `
       "filename": "2024/field_image.png",
       "dimensions": "12 6",
       "clickRestrictions": "none",
-      "showFlip": "false",
+      "showFlip": "true",
       "showUndo": "true",
       "shape": "circle 5 black red true"
     },
     { "name": "Coopertition?",
       "code": "c",
-      "type": "checkbox"
+      "type": "bool"
     }
   ],
   "endgame": [
@@ -223,6 +223,10 @@ var config_data = `
     },
     { "name": "Tippy?<br>(almost tipped over)",
       "code": "tip",
+      "type": "bool"
+    },
+   {  "name": "Can go under stage?",
+      "code": "us",
       "type": "bool"
     },
     { "name": "Fouls Given",
