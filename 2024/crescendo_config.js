@@ -229,11 +229,17 @@ var config_data = `
       "code": "fg",
       "type": "counter"
     },
-    { "name": "# spotlit",
-      "code": "ns",
-      "type": "counter",
-      "min": 0,
-      "max": 3
+    { "name": "Spotlit",
+      "code": "sl",
+      "type": "radio",
+      "choices": {
+       "3": "All 3 notes spotlit",
+       "2": "2 notes spotlit",
+       "1": "only 1 note spotlit",
+       "0": "missed all of the notes",
+       "N/A": "didn't throw/human player is by the Source"
+      },
+      "defaultValue":"N/A"
     },
     { "name": "Comments",
       "code": "co",
