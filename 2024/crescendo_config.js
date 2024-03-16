@@ -233,10 +233,10 @@ var config_data = `
       "code": "sl",
       "type": "radio",
       "choices": {
-       "3": "All 3 notes spotlit",
-       "2": "2 notes spotlit",
-       "1": "only 1 note spotlit",
-       "0": "missed all of the notes",
+       "3": "All 3 notes spotlit<br>",
+       "2": "2 notes spotlit<br>",
+       "1": "only 1 note spotlit<br>",
+       "0": "missed all of the notes<br>",
        "N/A": "didn't throw/human player is by the Source"
       },
       "defaultValue":"N/A"
