@@ -62,9 +62,9 @@ var config_data = `
       "choices": {
        "Amp": "Amp",
        "Source": "Source",
-       "N/A": "N/A"
+       "NA": "N/A"
        },
-       "defaultValue": "3"
+       "defaultValue": "NA"
     },
     { "name": "Starting Position",
       "code": "as",
@@ -128,9 +128,9 @@ var config_data = `
         "Source": "Source<br>",
         "Floor": "Floor<br>",
         "Both": "Both<br>",
-        "N/A": "Not Attempted"
+        "NA": "Not Attempted"
       },
-      "defaultValue": "x"
+      "defaultValue": "NA"
     },
     { "name": "Location Shot From",
       "code": "lsf",
@@ -168,9 +168,9 @@ var config_data = `
       "choices": {
        "Side": "Side",
        "Center": "Center",
-       "N/A": "N/A"
+       "NA": "N/A"
        },
-       "defaultValue": "N/A"
+       "defaultValue": "NA"
     },
     { "name": "Harmony?",
       "code": "H",
@@ -189,9 +189,9 @@ var config_data = `
         "1": "Not Effective<br>",
         "2": "Average<br>",
         "3": "Very Effective<br>",
-        "N/A": "Not Observed"
+        "NA": "Not Observed"
       },
-      "defaultValue": "x"
+      "defaultValue": "NA"
     },
     { "name": "Defense Rating",
       "code": "dr",
@@ -201,9 +201,9 @@ var config_data = `
         "2": "Average<br>",
         "3": "Good<br>",
         "4": "Excellent<br>",
-        "N/A": "Did not play defense"
+        "NA": "Did not play defense"
       },
-      "defaultValue": "x"
+      "defaultValue": "NA"
     },
     { "name": "Speed Rating",
       "code": "sr",
@@ -237,9 +237,9 @@ var config_data = `
        "2": "2 notes spotlit<br>",
        "1": "only 1 note spotlit<br>",
        "0": "missed all of the notes<br>",
-       "N/A": "didn't throw/human player is by the Source"
+       "NA": "didn't throw/human player is by the Source"
       },
-      "defaultValue":"N/A"
+      "defaultValue":"NA"
     },
     { "name": "Comments",
       "code": "co",
