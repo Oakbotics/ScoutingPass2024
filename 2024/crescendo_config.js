@@ -186,9 +186,9 @@ var config_data = `
       "code": "ds",
       "type": "radio",
       "choices": {
-        "1": "Not Effective<br>",
-        "2": "Average<br>",
-        "3": "Very Effective<br>",
+        "1": "Sits around deciding what to do",
+        "2": "Bit of hesitation during the match<br>",
+        "3": "Constantly moving between the Amp and Source<br>",
         "NA": "Not Observed"
       },
       "defaultValue": "NA"
@@ -197,10 +197,10 @@ var config_data = `
       "code": "dr",
       "type": "radio",
       "choices": {
-        "1": "Below Average<br>",
-        "2": "Average<br>",
-        "3": "Good<br>",
-        "4": "Excellent<br>",
+        "1": "Tried defense, let numerous bots through<br>",
+        "2": "Able to stop some bots for a bit<br>",
+        "3": "Stopped some bots for a few seconds<br>",
+        "4": "Prevented the opposing team from scoring for longer periods of time<br>",
         "NA": "Did not play defense"
       },
       "defaultValue": "NA"
@@ -209,7 +209,7 @@ var config_data = `
       "code": "sr",
       "type": "radio",
       "choices": {
-        "1": "1 (slow)<br>",
+        "1": "<br>",
         "2": "2<br>",
         "3": "3<br>",
         "4": "4<br>",
