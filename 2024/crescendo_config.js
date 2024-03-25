@@ -186,7 +186,7 @@ var config_data = `
       "code": "ds",
       "type": "radio",
       "choices": {
-        "1": "Sits around deciding what to do",
+        "1": "Sits around deciding what to do<br>",
         "2": "Bit of hesitation during the match<br>",
         "3": "Constantly moving between the Amp and Source<br>",
         "NA": "Not Observed"
