@@ -187,9 +187,9 @@ var config_data = `
       "code": "ds",
       "type": "radio",
       "choices": {
-        "1": "Sits around deciding what to do<br>",
-        "2": "Bit of hesitation during the match<br>",
-        "3": "Constantly moving between the Amp and Source<br>",
+        "1": "Sat around<br>",
+        "2": "tiny hesitation<br>",
+        "3": "Consistent movement<br>",
         "NA": "Not Observed"
       },
       "defaultValue": "NA"
@@ -198,10 +198,10 @@ var config_data = `
       "code": "dr",
       "type": "radio",
       "choices": {
-        "1": "Tried defense, let numerous bots through<br>",
+        "1": "Let alot through<br>",
         "2": "Able to stop some bots for a bit<br>",
-        "3": "Stopped some bots for a few seconds<br>",
-        "4": "Prevented the opposing team from scoring for longer periods of time<br>",
+        "3": "prevented some bots for a few seconds<br>",
+        "4": "Prevented for a long time<br>",
         "NA": "Did not play defense"
       },
       "defaultValue": "NA"
@@ -238,7 +238,7 @@ var config_data = `
        "2": "2 notes spotlit<br>",
        "1": "only 1 note spotlit<br>",
        "0": "missed all of the notes<br>",
-       "NA": "didn't throw/human player is by the Source"
+       "NA": "NA"
       },
       "defaultValue":"NA"
     },
