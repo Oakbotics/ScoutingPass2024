@@ -210,7 +210,7 @@ var config_data = `
       "code": "sr",
       "type": "radio",
       "choices": {
-        "1": "<br>",
+        "1": "1<br>",
         "2": "2<br>",
         "3": "3<br>",
         "4": "4<br>",
