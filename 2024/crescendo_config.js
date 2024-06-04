@@ -199,10 +199,10 @@ var config_data = `
       "type": "radio",
       "choices": {
         "1": "Let alot through<br>",
-        "2": "Able to stop some bots for a bit<br>",
-        "3": "prevented some bots for a few seconds<br>",
+        "2": "prevented some bots for a bit<br>",
+        "3": "prevented some bots for a while<br>",
         "4": "Prevented for a long time<br>",
-        "NA": "Did not play defense"
+        "NA": "NA"
       },
       "defaultValue": "NA"
     },
